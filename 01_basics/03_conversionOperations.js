@@ -1,15 +1,15 @@
 let score = "33abc"
 //let score1 = null
 let score1 = undefined
-console.log(typeof score);
-console.log(typeof (score1));// in case of undefined the value will be Nan after conversion to number
-console.log(typeof score1) // the output value for null will be 0 in null case after converted to number
+// console.log(typeof score);
+// console.log(typeof (score1));// in case of undefined the value will be Nan after conversion to number
+// console.log(typeof score1) // the output value for null will be 0 in null case after converted to number
 
 
 
 let valueInNumber = Number(score1)// to convert the string to number 
-console.log(typeof (valueInNumber));
-console.log(valueInNumber)// output will be NaN which says its not a pure number
+// console.log(typeof (valueInNumber));
+// console.log(valueInNumber)// output will be NaN which says its not a pure number
 
 
 
@@ -23,7 +23,7 @@ console.log(valueInNumber)// output will be NaN which says its not a pure number
 let isLoggedIn= 1
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
-console.log(booleanIsLoggedIn)
+// console.log(booleanIsLoggedIn)
 
 
 // 1=> true
@@ -35,4 +35,19 @@ console.log(booleanIsLoggedIn)
 let someNumber = 33
 
 let stringNumber = String(someNumber)
-console.log(stringNumber)
+// console.log(stringNumber)
+
+
+
+//*********************Operations*****************/
+
+let value = 3
+let negValue = -value
+//console.log(negValue)
+
+// console.log(2+2)
+// console.log(2-2)
+// console.log(2*2)
+// console.log(2**3)
+// console.log(2/2)
+// console.log(2%3)
