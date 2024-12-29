@@ -51,3 +51,38 @@ let negValue = -value
 // console.log(2**3)
 // console.log(2/2)
 // console.log(2%3)
+
+let str1 = "Hello "
+let str2 = " Jaya"
+let str3 = str1+str2
+// console.log(str3)
+
+// console.log("1" + 2)
+// console.log(1+ "2")
+// console.log("1" + 2 + 2)
+// console.log(1 + 2+ "2")
+
+// console.log(true)
+
+// console.log(+true)//gives output as 1
+
+
+let gameCounter = 1
+gameCounter++
+console.log(gameCounter)
+
+
+let x = 3;
+const y = x++;
+
+console.log(`x:${x}, y:${y}`);
+// Postfix Increment/Decrement (x++ and x--)
+// In postfix form, the operator follows the operand. For example:
+
+// x++ increments x and returns its previous value.
+// x-- decrements x and returns its previous value.
+
+let a = 3;
+const b = ++a;
+
+console.log(`a:${a}, b:${b}`);
