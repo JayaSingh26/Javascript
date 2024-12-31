@@ -80,3 +80,24 @@ let str3 = str1 + str2
 
 //**********Logical Operators**************** */
 
+//There are three main logical operationss:&&(logical and ),||(logical or ) and !(logical not)
+
+let a = 4
+let b = 12
+// console.log(a>0 &&b>0);
+// console.log(a>10 || b>0);
+// console.log(a==b);
+
+
+//********ternary operation****** */
+//syntax condition?expressionIFTRUE:expressionIfFalse
+
+
+let age = 18
+let result =age>=18?"eligible":"Not eligible"
+// console.log(result);
+
+
+//expressions always evaluates from left to right
+console.log(2<12<5);
+//output is true because after first evaluation the value is true that is 1 so type coercion takes place  
