@@ -10,5 +10,14 @@ const gameName = new String("JayaThakur")
 console.log(gameName);
 console.log(gameName[0]);
 console.log(gameName.__proto__);
-//(.) is used to use other methods with string
+
+
+console.log(gameName.length);
+console.log(gameName.toUpperCase());
+console.log(gameName.charAt(3));
+
+
+
+//(.) is used to use other methods with string operands
+
 
